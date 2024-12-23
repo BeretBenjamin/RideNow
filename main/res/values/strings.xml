@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RideNow</string>
+    <string name="delete_motorcycle">Delete Motorcycle</string>
+    <string name="motorcycle_description">Make: %1$s, Model: %2$s (%3$d)</string>
+    <string name="add_motorcycle">Add bike</string>
+    <string name="update_motorcycle">Change Details</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/motorcycle_name"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp" />
+
+    <ImageButton
+        android:id="@+id/update_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_edit"
+        app:tint="@android:color/holo_red_light"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/update_motorcycle"
+        android:padding="8dp" />
+
+    <ImageButton
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_delete"
+        app:tint="@android:color/holo_red_light"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/delete_motorcycle"
+        android:padding="8dp" />
+</LinearLayout>
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/motorcycle_name"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_orange_light"
+        android:textStyle="bold"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp" />
+
+    <!-- Edit Text Button -->
+    <TextView
+        android:id="@+id/update_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDIT"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_green_light"
+        android:padding="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:contentDescription="@string/update_motorcycle" />
+
+    <!-- Delete Text Button -->
+    <TextView
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEL"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_red_light"
+        android:padding="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:contentDescription="@string/delete_motorcycle" />
+</LinearLayout>
